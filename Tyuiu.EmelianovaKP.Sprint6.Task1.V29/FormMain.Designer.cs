@@ -4,14 +4,14 @@ namespace Tyuiu.EmelianovaKP.Sprint6.Task1.V29
     partial class FormMain
     {
         /// <summary>
-        /// Обязательная переменная конструктора.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Освободить все используемые ресурсы.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,193 +21,224 @@ namespace Tyuiu.EmelianovaKP.Sprint6.Task1.V29
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
-         private void InitializeComponent()
+        private void InitializeComponent()
         {
+            this.groupBoxTask_EKP = new System.Windows.Forms.GroupBox();
+            this.textBoxTask_EKP = new System.Windows.Forms.TextBox();
+            this.groupBoxInputData_EKP = new System.Windows.Forms.GroupBox();
+            this.labelStopValue_EKP = new System.Windows.Forms.Label();
+            this.labelStartValue_EKP = new System.Windows.Forms.Label();
+            this.textBoxStopValue_EKP = new System.Windows.Forms.TextBox();
+            this.textBoxStartValue_EKP = new System.Windows.Forms.TextBox();
+            this.buttonExecute_EKP = new System.Windows.Forms.Button();
+            this.buttonReference_EKP = new System.Windows.Forms.Button();
+            this.groupBoxOutputData_EKP = new System.Windows.Forms.GroupBox();
+            this.labelResult_EKP = new System.Windows.Forms.Label();
             this.textBoxResult_EKP = new System.Windows.Forms.TextBox();
-            this.groupBoxNamedOne_EKP = new System.Windows.Forms.GroupBox();
-            this.textBoxNameddOne_EKP = new System.Windows.Forms.TextBox();
-            this.buttonDone_EKP = new System.Windows.Forms.Button();
-            this.buttonHelp_EKP = new System.Windows.Forms.Button();
-            this.groupBoxNameddOne_EKP = new System.Windows.Forms.GroupBox();
-            this.textBoxNameedOne_EKP = new System.Windows.Forms.TextBox();
-            this.textBoxNamedThree_EKP = new System.Windows.Forms.TextBox();
-            this.textBoxStopStep_EKP = new System.Windows.Forms.TextBox();
-            this.textBoxStartStep_EKP = new System.Windows.Forms.TextBox();
-            this.groupBoxNameedOne_EKP = new System.Windows.Forms.GroupBox();
-            this.textBoxNaamedOne_EKP = new System.Windows.Forms.TextBox();
-            this.groupBoxNamedOne_EKP.SuspendLayout();
-            this.groupBoxNameddOne_EKP.SuspendLayout();
-            this.groupBoxNameedOne_EKP.SuspendLayout();
+            this.groupBoxTask_EKP.SuspendLayout();
+            this.groupBoxInputData_EKP.SuspendLayout();
+            this.groupBoxOutputData_EKP.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // groupBoxTask_EKP
+            // 
+            this.groupBoxTask_EKP.Controls.Add(this.textBoxTask_EKP);
+            this.groupBoxTask_EKP.Font = new System.Drawing.Font("Segoe Print", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBoxTask_EKP.Location = new System.Drawing.Point(22, 28);
+            this.groupBoxTask_EKP.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.groupBoxTask_EKP.Name = "groupBoxTask_EKP";
+            this.groupBoxTask_EKP.Padding = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.groupBoxTask_EKP.Size = new System.Drawing.Size(425, 254);
+            this.groupBoxTask_EKP.TabIndex = 0;
+            this.groupBoxTask_EKP.TabStop = false;
+            this.groupBoxTask_EKP.Text = "Условие";
+            this.groupBoxTask_EKP.Enter += new System.EventHandler(this.groupBoxTask_EKP_Enter);
+            // 
+            // textBoxTask_EKP
+            // 
+            this.textBoxTask_EKP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTask_EKP.Font = new System.Drawing.Font("Segoe Print", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxTask_EKP.Location = new System.Drawing.Point(9, 43);
+            this.textBoxTask_EKP.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.textBoxTask_EKP.Multiline = true;
+            this.textBoxTask_EKP.Name = "textBoxTask_EKP";
+            this.textBoxTask_EKP.ReadOnly = true;
+            this.textBoxTask_EKP.Size = new System.Drawing.Size(389, 187);
+            this.textBoxTask_EKP.TabIndex = 0;
+            this.textBoxTask_EKP.TabStop = false;
+            this.textBoxTask_EKP.Text = "Протабулировать функцию\r\n\r\ncos(x) / (x + 1) - cos(x) * 1.3 + 3x\r\n\r\nна заданном ди" +
+    "апазоне.\r\nРезультат вывести в таблицу.";
+            this.textBoxTask_EKP.TextChanged += new System.EventHandler(this.textBoxTask_EKP_TextChanged);
+            // 
+            // groupBoxInputData_EKP
+            // 
+            this.groupBoxInputData_EKP.Controls.Add(this.labelStopValue_EKP);
+            this.groupBoxInputData_EKP.Controls.Add(this.labelStartValue_EKP);
+            this.groupBoxInputData_EKP.Controls.Add(this.textBoxStopValue_EKP);
+            this.groupBoxInputData_EKP.Controls.Add(this.textBoxStartValue_EKP);
+            this.groupBoxInputData_EKP.Location = new System.Drawing.Point(22, 318);
+            this.groupBoxInputData_EKP.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.groupBoxInputData_EKP.Name = "groupBoxInputData_EKP";
+            this.groupBoxInputData_EKP.Padding = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.groupBoxInputData_EKP.Size = new System.Drawing.Size(361, 126);
+            this.groupBoxInputData_EKP.TabIndex = 1;
+            this.groupBoxInputData_EKP.TabStop = false;
+            this.groupBoxInputData_EKP.Text = "Ввод данных";
+            // 
+            // labelStopValue_EKP
+            // 
+            this.labelStopValue_EKP.AutoSize = true;
+            this.labelStopValue_EKP.Location = new System.Drawing.Point(223, 43);
+            this.labelStopValue_EKP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelStopValue_EKP.Name = "labelStopValue_EKP";
+            this.labelStopValue_EKP.Size = new System.Drawing.Size(78, 19);
+            this.labelStopValue_EKP.TabIndex = 3;
+            this.labelStopValue_EKP.Text = "Конец шага:";
+            // 
+            // labelStartValue_EKP
+            // 
+            this.labelStartValue_EKP.AutoSize = true;
+            this.labelStartValue_EKP.Location = new System.Drawing.Point(11, 43);
+            this.labelStartValue_EKP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelStartValue_EKP.Name = "labelStartValue_EKP";
+            this.labelStartValue_EKP.Size = new System.Drawing.Size(86, 19);
+            this.labelStartValue_EKP.TabIndex = 2;
+            this.labelStartValue_EKP.Text = "Старт шага:";
+            // 
+            // textBoxStopValue_EKP
+            // 
+            this.textBoxStopValue_EKP.Location = new System.Drawing.Point(222, 73);
+            this.textBoxStopValue_EKP.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.textBoxStopValue_EKP.Name = "textBoxStopValue_EKP";
+            this.textBoxStopValue_EKP.Size = new System.Drawing.Size(115, 26);
+            this.textBoxStopValue_EKP.TabIndex = 1;
+            this.textBoxStopValue_EKP.TabStop = false;
+            this.textBoxStopValue_EKP.Text = "5";
+            // 
+            // textBoxStartValue_EKP
+            // 
+            this.textBoxStartValue_EKP.Location = new System.Drawing.Point(11, 73);
+            this.textBoxStartValue_EKP.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.textBoxStartValue_EKP.Name = "textBoxStartValue_EKP";
+            this.textBoxStartValue_EKP.Size = new System.Drawing.Size(126, 26);
+            this.textBoxStartValue_EKP.TabIndex = 0;
+            this.textBoxStartValue_EKP.TabStop = false;
+            this.textBoxStartValue_EKP.Text = "-5";
+            // 
+            // buttonExecute_EKP
+            // 
+            this.buttonExecute_EKP.BackColor = System.Drawing.Color.Violet;
+            this.buttonExecute_EKP.Font = new System.Drawing.Font("Segoe Print", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonExecute_EKP.Location = new System.Drawing.Point(529, 331);
+            this.buttonExecute_EKP.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.buttonExecute_EKP.Name = "buttonExecute_EKP";
+            this.buttonExecute_EKP.Size = new System.Drawing.Size(152, 113);
+            this.buttonExecute_EKP.TabIndex = 2;
+            this.buttonExecute_EKP.TabStop = false;
+            this.buttonExecute_EKP.Text = "Выполнить";
+            this.buttonExecute_EKP.UseVisualStyleBackColor = false;
+            this.buttonExecute_EKP.Click += new System.EventHandler(this.buttonExecute_EKP_Click);
+            // 
+            // buttonReference_EKP
+            // 
+            this.buttonReference_EKP.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonReference_EKP.Font = new System.Drawing.Font("Segoe Print", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonReference_EKP.Location = new System.Drawing.Point(409, 331);
+            this.buttonReference_EKP.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.buttonReference_EKP.Name = "buttonReference_EKP";
+            this.buttonReference_EKP.Size = new System.Drawing.Size(112, 113);
+            this.buttonReference_EKP.TabIndex = 3;
+            this.buttonReference_EKP.TabStop = false;
+            this.buttonReference_EKP.Text = "Справка";
+            this.buttonReference_EKP.UseVisualStyleBackColor = false;
+            this.buttonReference_EKP.Click += new System.EventHandler(this.buttonReference_EKP_Click);
+            // 
+            // groupBoxOutputData_EKP
+            // 
+            this.groupBoxOutputData_EKP.Controls.Add(this.labelResult_EKP);
+            this.groupBoxOutputData_EKP.Controls.Add(this.textBoxResult_EKP);
+            this.groupBoxOutputData_EKP.Font = new System.Drawing.Font("Segoe Print", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.groupBoxOutputData_EKP.Location = new System.Drawing.Point(700, 28);
+            this.groupBoxOutputData_EKP.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.groupBoxOutputData_EKP.Name = "groupBoxOutputData_EKP";
+            this.groupBoxOutputData_EKP.Padding = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.groupBoxOutputData_EKP.Size = new System.Drawing.Size(281, 416);
+            this.groupBoxOutputData_EKP.TabIndex = 4;
+            this.groupBoxOutputData_EKP.TabStop = false;
+            this.groupBoxOutputData_EKP.Text = "Вывод данных";
+            // 
+            // labelResult_EKP
+            // 
+            this.labelResult_EKP.AutoSize = true;
+            this.labelResult_EKP.Location = new System.Drawing.Point(11, 43);
+            this.labelResult_EKP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelResult_EKP.Name = "labelResult_EKP";
+            this.labelResult_EKP.Size = new System.Drawing.Size(79, 19);
+            this.labelResult_EKP.TabIndex = 1;
+            this.labelResult_EKP.Text = "Результат:";
             // 
             // textBoxResult_EKP
             // 
-            this.textBoxResult_EKP.Location = new System.Drawing.Point(6, 55);
+            this.textBoxResult_EKP.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxResult_EKP.Location = new System.Drawing.Point(12, 90);
+            this.textBoxResult_EKP.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
             this.textBoxResult_EKP.Multiline = true;
             this.textBoxResult_EKP.Name = "textBoxResult_EKP";
             this.textBoxResult_EKP.ReadOnly = true;
-            this.textBoxResult_EKP.Size = new System.Drawing.Size(284, 326);
+            this.textBoxResult_EKP.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.textBoxResult_EKP.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxResult_EKP.Size = new System.Drawing.Size(247, 315);
             this.textBoxResult_EKP.TabIndex = 0;
-            // 
-            // groupBoxNamedOne_EKP
-            // 
-            this.groupBoxNamedOne_EKP.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBoxNamedOne_EKP.Controls.Add(this.textBoxNameddOne_EKP);
-            this.groupBoxNamedOne_EKP.Controls.Add(this.textBoxResult_EKP);
-            this.groupBoxNamedOne_EKP.Location = new System.Drawing.Point(492, 23);
-            this.groupBoxNamedOne_EKP.Name = "groupBoxNamedOne_EKP";
-            this.groupBoxNamedOne_EKP.Size = new System.Drawing.Size(296, 387);
-            this.groupBoxNamedOne_EKP.TabIndex = 1;
-            this.groupBoxNamedOne_EKP.TabStop = false;
-            this.groupBoxNamedOne_EKP.Text = "Вывод данных";
-            // 
-            // textBoxNameddOne_EKP
-            // 
-            this.textBoxNameddOne_EKP.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBoxNameddOne_EKP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNameddOne_EKP.Location = new System.Drawing.Point(6, 27);
-            this.textBoxNameddOne_EKP.Name = "textBoxNameddOne_EKP";
-            this.textBoxNameddOne_EKP.Size = new System.Drawing.Size(83, 15);
-            this.textBoxNameddOne_EKP.TabIndex = 1;
-            this.textBoxNameddOne_EKP.Text = "Результат:";
-            // 
-            // buttonDone_EKP
-            // 
-            this.buttonDone_EKP.BackColor = System.Drawing.Color.ForestGreen;
-            this.buttonDone_EKP.Location = new System.Drawing.Point(384, 346);
-            this.buttonDone_EKP.Name = "buttonDone_EKP";
-            this.buttonDone_EKP.Size = new System.Drawing.Size(102, 52);
-            this.buttonDone_EKP.TabIndex = 2;
-            this.buttonDone_EKP.Text = "Выполнить";
-            this.buttonDone_EKP.UseVisualStyleBackColor = false;
-            this.buttonDone_EKP.Click += new System.EventHandler(this.buttonDone_EKP_Click);
-            // 
-            // buttonHelp_EKP
-            // 
-            this.buttonHelp_EKP.BackColor = System.Drawing.SystemColors.Highlight;
-            this.buttonHelp_EKP.Location = new System.Drawing.Point(271, 346);
-            this.buttonHelp_EKP.Name = "buttonHelp_EKP";
-            this.buttonHelp_EKP.Size = new System.Drawing.Size(107, 52);
-            this.buttonHelp_EKP.TabIndex = 3;
-            this.buttonHelp_EKP.Text = "Справка";
-            this.buttonHelp_EKP.UseVisualStyleBackColor = false;
-            this.buttonHelp_EKP.Click += new System.EventHandler(this.buttonHelp_EKP_Click);
-            // 
-            // groupBoxNameddOne_EKP
-            // 
-            this.groupBoxNameddOne_EKP.Controls.Add(this.textBoxNameedOne_EKP);
-            this.groupBoxNameddOne_EKP.Controls.Add(this.textBoxNamedThree_EKP);
-            this.groupBoxNameddOne_EKP.Controls.Add(this.textBoxStopStep_EKP);
-            this.groupBoxNameddOne_EKP.Controls.Add(this.textBoxStartStep_EKP);
-            this.groupBoxNameddOne_EKP.Location = new System.Drawing.Point(12, 325);
-            this.groupBoxNameddOne_EKP.Name = "groupBoxNameddOne_EKP";
-            this.groupBoxNameddOne_EKP.Size = new System.Drawing.Size(253, 73);
-            this.groupBoxNameddOne_EKP.TabIndex = 4;
-            this.groupBoxNameddOne_EKP.TabStop = false;
-            this.groupBoxNameddOne_EKP.Text = "Ввод данных:";
-            // 
-            // textBoxNameedOne_EKP
-            // 
-            this.textBoxNameedOne_EKP.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBoxNameedOne_EKP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNameedOne_EKP.Location = new System.Drawing.Point(133, 21);
-            this.textBoxNameedOne_EKP.Name = "textBoxNameedOne_EKP";
-            this.textBoxNameedOne_EKP.Size = new System.Drawing.Size(114, 15);
-            this.textBoxNameedOne_EKP.TabIndex = 6;
-            this.textBoxNameedOne_EKP.Text = "Конец шага:";
-            // 
-            // textBoxNamedThree_EKP
-            // 
-            this.textBoxNamedThree_EKP.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBoxNamedThree_EKP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNamedThree_EKP.Location = new System.Drawing.Point(13, 21);
-            this.textBoxNamedThree_EKP.Name = "textBoxNamedThree_EKP";
-            this.textBoxNamedThree_EKP.Size = new System.Drawing.Size(85, 15);
-            this.textBoxNamedThree_EKP.TabIndex = 5;
-            this.textBoxNamedThree_EKP.Text = "Старт шага:";
-            // 
-            // textBoxStopStep_EKP
-            // 
-            this.textBoxStopStep_EKP.Location = new System.Drawing.Point(133, 45);
-            this.textBoxStopStep_EKP.Name = "textBoxStopStep_EKP";
-            this.textBoxStopStep_EKP.ReadOnly = true;
-            this.textBoxStopStep_EKP.Size = new System.Drawing.Size(114, 22);
-            this.textBoxStopStep_EKP.TabIndex = 6;
-            this.textBoxStopStep_EKP.Text = "5";
-            // 
-            // textBoxStartStep_EKP
-            // 
-            this.textBoxStartStep_EKP.Location = new System.Drawing.Point(13, 45);
-            this.textBoxStartStep_EKP.Name = "textBoxStartStep_EKP";
-            this.textBoxStartStep_EKP.ReadOnly = true;
-            this.textBoxStartStep_EKP.Size = new System.Drawing.Size(114, 22);
-            this.textBoxStartStep_EKP.TabIndex = 5;
-            this.textBoxStartStep_EKP.Text = "-5";
-            // 
-            // groupBoxNameedOne_EKP
-            // 
-            this.groupBoxNameedOne_EKP.Controls.Add(this.textBoxNaamedOne_EKP);
-            this.groupBoxNameedOne_EKP.Location = new System.Drawing.Point(10, 23);
-            this.groupBoxNameedOne_EKP.Name = "groupBoxNameedOne_EKP";
-            this.groupBoxNameedOne_EKP.Size = new System.Drawing.Size(474, 296);
-            this.groupBoxNameedOne_EKP.TabIndex = 5;
-            this.groupBoxNameedOne_EKP.TabStop = false;
-            this.groupBoxNameedOne_EKP.Text = "Условие";
-            // 
-            // textBoxNaamedOne_EKP
-            // 
-            this.textBoxNaamedOne_EKP.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBoxNaamedOne_EKP.Location = new System.Drawing.Point(6, 21);
-            this.textBoxNaamedOne_EKP.Multiline = true;
-            this.textBoxNaamedOne_EKP.Name = "textBoxNaamedOne_EKP";
-            this.textBoxNaamedOne_EKP.ReadOnly = true;
-            this.textBoxNaamedOne_EKP.Size = new System.Drawing.Size(348, 56);
-            this.textBoxNaamedOne_EKP.TabIndex = 0;
-            this.textBoxNaamedOne_EKP.Text = "Протабулировать функцию (cos(x) / (x + 1) - cos(x) * 1.3 + 3x) на " +
-    "заданном диапазоне. Результат вывести в таблице.";
+            this.textBoxResult_EKP.TabStop = false;
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(799, 426);
-            this.Controls.Add(this.groupBoxNameedOne_EKP);
-            this.Controls.Add(this.groupBoxNameddOne_EKP);
-            this.Controls.Add(this.buttonHelp_EKP);
-            this.Controls.Add(this.buttonDone_EKP);
-            this.Controls.Add(this.groupBoxNamedOne_EKP);
+            this.ClientSize = new System.Drawing.Size(996, 461);
+            this.Controls.Add(this.groupBoxOutputData_EKP);
+            this.Controls.Add(this.buttonReference_EKP);
+            this.Controls.Add(this.buttonExecute_EKP);
+            this.Controls.Add(this.groupBoxInputData_EKP);
+            this.Controls.Add(this.groupBoxTask_EKP);
+            this.Font = new System.Drawing.Font("Segoe Print", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 7, 4, 7);
+            this.MaximizeBox = false;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 1 | Вариант 29 | Емельянова К. П.";
-            this.groupBoxNamedOne_EKP.ResumeLayout(false);
-            this.groupBoxNamedOne_EKP.PerformLayout();
-            this.groupBoxNameddOne_EKP.ResumeLayout(false);
-            this.groupBoxNameddOne_EKP.PerformLayout();
-            this.groupBoxNameedOne_EKP.ResumeLayout(false);
-            this.groupBoxNameedOne_EKP.PerformLayout();
+            this.Load += new System.EventHandler(this.FormMain_Load);
+            this.groupBoxTask_EKP.ResumeLayout(false);
+            this.groupBoxTask_EKP.PerformLayout();
+            this.groupBoxInputData_EKP.ResumeLayout(false);
+            this.groupBoxInputData_EKP.PerformLayout();
+            this.groupBoxOutputData_EKP.ResumeLayout(false);
+            this.groupBoxOutputData_EKP.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.GroupBox groupBoxTask_EKP;
+        private System.Windows.Forms.GroupBox groupBoxInputData_EKP;
+        private System.Windows.Forms.Button buttonExecute_EKP;
+        private System.Windows.Forms.Button buttonReference_EKP;
+        private System.Windows.Forms.Label labelStopValue_EKP;
+        private System.Windows.Forms.Label labelStartValue_EKP;
+        private System.Windows.Forms.TextBox textBoxStopValue_EKP;
+        private System.Windows.Forms.TextBox textBoxStartValue_EKP;
+        private System.Windows.Forms.GroupBox groupBoxOutputData_EKP;
+        private System.Windows.Forms.Label labelResult_EKP;
         private System.Windows.Forms.TextBox textBoxResult_EKP;
-        private System.Windows.Forms.GroupBox groupBoxNamedOne_EKP;
-        private System.Windows.Forms.TextBox textBoxNameddOne_EKP;
-        private System.Windows.Forms.Button buttonDone_EKP;
-        private System.Windows.Forms.Button buttonHelp_EKP;
-        private System.Windows.Forms.GroupBox groupBoxNameddOne_EKP;
-        private System.Windows.Forms.TextBox textBoxStopStep_EKP;
-        private System.Windows.Forms.TextBox textBoxStartStep_EKP;
-        private System.Windows.Forms.TextBox textBoxNamedThree_EKP;
-        private System.Windows.Forms.TextBox textBoxNameedOne_EKP;
-        private System.Windows.Forms.GroupBox groupBoxNameedOne_EKP;
-        private System.Windows.Forms.TextBox textBoxNaamedOne_EKP;
+        private System.Windows.Forms.TextBox textBoxTask_EKP;
     }
 }
 
