@@ -19,12 +19,12 @@ namespace Tyuiu.EmelianovaKP.Sprint6.Task0.V6
             InitializeComponent();
         }
 
-        private void buttonResultCaclulation_Click(object sender, EventArgs e)
+        private void buttonResultCaclulation_EKP_Click(object sender, EventArgs e)
         {
-            textBoxResult.Text = service.Calculate(3).ToString();
+            textBoxResult_EKP.Text = service.Calculate(3).ToString();
         }
 
-        private void buttonHelp_Click(object sender, EventArgs e)
+        private void buttonHelp_EKP_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Задание выполнил студент группы ПКТб-23-1 Емельянова К. П.", "Сообщение");
         }

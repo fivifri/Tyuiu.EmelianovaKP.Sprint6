@@ -29,134 +29,137 @@ namespace Tyuiu.EmelianovaKP.Sprint6.Task0.V6
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBoxCondition = new System.Windows.Forms.GroupBox();
-            this.pictureBoxCondition = new System.Windows.Forms.PictureBox();
-            this.textBoxCondition = new System.Windows.Forms.TextBox();
-            this.groupBoxOutputData = new System.Windows.Forms.GroupBox();
-            this.buttonResultCaclulation = new System.Windows.Forms.Button();
-            this.textBoxResult = new System.Windows.Forms.TextBox();
-            this.buttonHelp = new System.Windows.Forms.Button();
-            this.labelResult = new System.Windows.Forms.Label();
-            this.groupBoxCondition.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCondition)).BeginInit();
-            this.groupBoxOutputData.SuspendLayout();
+            this.groupBoxCondition_EKP = new System.Windows.Forms.GroupBox();
+            this.pictureBoxCondition_EKP = new System.Windows.Forms.PictureBox();
+            this.textBoxCondition_EKP = new System.Windows.Forms.TextBox();
+            this.groupBoxOutputData_EKP = new System.Windows.Forms.GroupBox();
+            this.buttonResultCaclulation_EKP = new System.Windows.Forms.Button();
+            this.textBoxResult_EKP = new System.Windows.Forms.TextBox();
+            this.buttonHelp_EKP = new System.Windows.Forms.Button();
+            this.labelResult_EKP = new System.Windows.Forms.Label();
+            this.groupBoxCondition_EKP.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCondition_EKP)).BeginInit();
+            this.groupBoxOutputData_EKP.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBoxCondition
+            // groupBoxCondition_EKP
             // 
-            this.groupBoxCondition.Controls.Add(this.pictureBoxCondition);
-            this.groupBoxCondition.Controls.Add(this.textBoxCondition);
-            this.groupBoxCondition.Location = new System.Drawing.Point(12, 12);
-            this.groupBoxCondition.Name = "groupBoxCondition";
-            this.groupBoxCondition.Size = new System.Drawing.Size(303, 167);
-            this.groupBoxCondition.TabIndex = 1;
-            this.groupBoxCondition.TabStop = false;
-            this.groupBoxCondition.Text = "Условие";
+            this.groupBoxCondition_EKP.Controls.Add(this.pictureBoxCondition_EKP);
+            this.groupBoxCondition_EKP.Controls.Add(this.textBoxCondition_EKP);
+            this.groupBoxCondition_EKP.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxCondition_EKP.Name = "groupBoxCondition_EKP";
+            this.groupBoxCondition_EKP.Size = new System.Drawing.Size(303, 167);
+            this.groupBoxCondition_EKP.TabIndex = 1;
+            this.groupBoxCondition_EKP.TabStop = false;
+            this.groupBoxCondition_EKP.Text = "Условие";
             // 
-            // pictureBoxCondition
+            // pictureBoxCondition_EKP
             // 
-            this.pictureBoxCondition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxCondition.Image = global::Tyuiu.EmelianovaKP.Sprint6.Task0.V6.Properties.Resources.Calculation;
-            this.pictureBoxCondition.Location = new System.Drawing.Point(180, 19);
-            this.pictureBoxCondition.Name = "pictureBoxCondition";
-            this.pictureBoxCondition.Size = new System.Drawing.Size(117, 54);
-            this.pictureBoxCondition.TabIndex = 0;
-            this.pictureBoxCondition.TabStop = false;
+            this.pictureBoxCondition_EKP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBoxCondition_EKP.Image = global::Tyuiu.EmelianovaKP.Sprint6.Task0.V6.Properties.Resources.Calculation;
+            this.pictureBoxCondition_EKP.Location = new System.Drawing.Point(180, 19);
+            this.pictureBoxCondition_EKP.Name = "pictureBoxCondition_EKP";
+            this.pictureBoxCondition_EKP.Size = new System.Drawing.Size(117, 54);
+            this.pictureBoxCondition_EKP.TabIndex = 0;
+            this.pictureBoxCondition_EKP.TabStop = false;
             // 
-            // textBoxCondition
+            // textBoxCondition_EKP
             // 
-            this.textBoxCondition.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxCondition.Location = new System.Drawing.Point(17, 19);
-            this.textBoxCondition.Multiline = true;
-            this.textBoxCondition.Name = "textBoxCondition";
-            this.textBoxCondition.Size = new System.Drawing.Size(157, 137);
-            this.textBoxCondition.TabIndex = 2;
-            this.textBoxCondition.ReadOnly = true;
-            this.textBoxCondition.Text = "Посчитать значение выражения при x = 3";
+            this.textBoxCondition_EKP.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxCondition_EKP.Location = new System.Drawing.Point(17, 19);
+            this.textBoxCondition_EKP.Multiline = true;
+            this.textBoxCondition_EKP.Name = "textBoxCondition_EKP";
+            this.textBoxCondition_EKP.Size = new System.Drawing.Size(157, 137);
+            this.textBoxCondition_EKP.TabIndex = 2;
+            this.textBoxCondition_EKP.ReadOnly = true;
+            this.textBoxCondition_EKP.TabStop = false;
+            this.textBoxCondition_EKP.Text = "Посчитать значение выражения при x = 3";
             // 
-            // groupBoxOutputData
+            // groupBoxOutputData_EKP
             // 
-            this.groupBoxOutputData.Controls.Add(this.labelResult);
-            this.groupBoxOutputData.Controls.Add(this.buttonResultCaclulation);
-            this.groupBoxOutputData.Controls.Add(this.textBoxResult);
-            this.groupBoxOutputData.Location = new System.Drawing.Point(321, 12);
-            this.groupBoxOutputData.Name = "groupBoxOutputData";
-            this.groupBoxOutputData.Size = new System.Drawing.Size(98, 91);
-            this.groupBoxOutputData.TabIndex = 2;
-            this.groupBoxOutputData.TabStop = false;
-            this.groupBoxOutputData.Text = "Вывод данных";
+            this.groupBoxOutputData_EKP.Controls.Add(this.labelResult_EKP);
+            this.groupBoxOutputData_EKP.Controls.Add(this.buttonResultCaclulation_EKP);
+            this.groupBoxOutputData_EKP.Controls.Add(this.textBoxResult_EKP);
+            this.groupBoxOutputData_EKP.Location = new System.Drawing.Point(321, 12);
+            this.groupBoxOutputData_EKP.Name = "groupBoxOutputData_EKP";
+            this.groupBoxOutputData_EKP.Size = new System.Drawing.Size(98, 91);
+            this.groupBoxOutputData_EKP.TabIndex = 2;
+            this.groupBoxOutputData_EKP.TabStop = false;
+            this.groupBoxOutputData_EKP.Text = "Вывод данных";
             // 
-            // buttonResultCaclulation
+            // buttonResultCaclulation_EKP
             // 
-            this.buttonResultCaclulation.Location = new System.Drawing.Point(6, 62);
-            this.buttonResultCaclulation.Name = "buttonResultCaclulation";
-            this.buttonResultCaclulation.Size = new System.Drawing.Size(85, 23);
-            this.buttonResultCaclulation.TabIndex = 2;
-            this.buttonResultCaclulation.Text = "Выполнить";
-            this.buttonResultCaclulation.UseVisualStyleBackColor = true;
-            this.buttonResultCaclulation.Click += new System.EventHandler(this.buttonResultCaclulation_Click);
+            this.buttonResultCaclulation_EKP.Location = new System.Drawing.Point(6, 62);
+            this.buttonResultCaclulation_EKP.Name = "buttonResultCaclulation_EKP";
+            this.buttonResultCaclulation_EKP.Size = new System.Drawing.Size(85, 23);
+            this.buttonResultCaclulation_EKP.TabIndex = 2;
+            this.buttonResultCaclulation_EKP.Text = "Выполнить";
+            this.buttonResultCaclulation_EKP.UseVisualStyleBackColor = true;
+            this.buttonResultCaclulation_EKP.Click += new System.EventHandler(this.buttonResultCaclulation_EKP_Click);
+            this.buttonResultCaclulation_EKP.TabStop = false;
             // 
-            // textBoxResult
+            // textBoxResult_EKP
             // 
-            this.textBoxResult.AccessibleDescription = "";
-            this.textBoxResult.Location = new System.Drawing.Point(6, 39);
-            this.textBoxResult.Name = "textBoxResult";
-            this.textBoxResult.ReadOnly = true;
-            this.textBoxResult.Size = new System.Drawing.Size(85, 20);
-            this.textBoxResult.TabIndex = 0;
-            this.textBoxResult.Tag = "";
+            this.textBoxResult_EKP.Location = new System.Drawing.Point(6, 39);
+            this.textBoxResult_EKP.Name = "textBoxResult_EKP";
+            this.textBoxResult_EKP.ReadOnly = true;
+            this.textBoxResult_EKP.Size = new System.Drawing.Size(85, 20);
+            this.textBoxResult_EKP.TabIndex = 0;
+            this.textBoxResult_EKP.TabStop = false;
+
             // 
-            // buttonHelp
+            // buttonHelp_EKP
             // 
-            this.buttonHelp.Location = new System.Drawing.Point(350, 123);
-            this.buttonHelp.Name = "buttonHelp";
-            this.buttonHelp.Size = new System.Drawing.Size(42, 36);
-            this.buttonHelp.TabIndex = 3;
-            this.buttonHelp.Text = " ?";
-            this.buttonHelp.UseVisualStyleBackColor = true;
-            this.buttonHelp.Click += new System.EventHandler(this.buttonHelp_Click);
+            this.buttonHelp_EKP.Location = new System.Drawing.Point(350, 123);
+            this.buttonHelp_EKP.Name = "buttonHelp_EKP";
+            this.buttonHelp_EKP.Size = new System.Drawing.Size(42, 36);
+            this.buttonHelp_EKP.TabIndex = 3;
+            this.buttonHelp_EKP.Text = "?";
+            this.buttonHelp_EKP.UseVisualStyleBackColor = true;
+            this.buttonHelp_EKP.Click += new System.EventHandler(this.buttonHelp_EKP_Click);
+            this.buttonHelp_EKP.TabStop = false;
             // 
-            // labelResult
+            // labelResult_EKP
             // 
-            this.labelResult.AutoSize = true;
-            this.labelResult.Location = new System.Drawing.Point(9, 29);
-            this.labelResult.Name = "labelResult";
-            this.labelResult.Size = new System.Drawing.Size(59, 13);
-            this.labelResult.TabIndex = 3;
-            this.labelResult.Text = "Результат";
+            this.labelResult_EKP.AutoSize = true;
+            this.labelResult_EKP.Location = new System.Drawing.Point(9, 29);
+            this.labelResult_EKP.Name = "labelResult_EKP";
+            this.labelResult_EKP.Size = new System.Drawing.Size(59, 13);
+            this.labelResult_EKP.TabIndex = 3;
+            this.labelResult_EKP.Text = "Результат";
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(425, 190);
-            this.Controls.Add(this.buttonHelp);
-            this.Controls.Add(this.groupBoxOutputData);
-            this.Controls.Add(this.groupBoxCondition);
+            this.Controls.Add(this.buttonHelp_EKP);
+            this.Controls.Add(this.groupBoxOutputData_EKP);
+            this.Controls.Add(this.groupBoxCondition_EKP);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Sprint 6 | Task 0 | V6 | Emelianova K. P.";
-            this.groupBoxCondition.ResumeLayout(false);
-            this.groupBoxCondition.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCondition)).EndInit();
-            this.groupBoxOutputData.ResumeLayout(false);
-            this.groupBoxOutputData.PerformLayout();
+            this.Text = "Спринт 6 | Таск 0 | Вариант 6 | Емельянова К. П.";
+            this.groupBoxCondition_EKP.ResumeLayout(false);
+            this.groupBoxCondition_EKP.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCondition_EKP)).EndInit();
+            this.groupBoxOutputData_EKP.ResumeLayout(false);
+            this.groupBoxOutputData_EKP.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBoxCondition;
-        private System.Windows.Forms.PictureBox pictureBoxCondition;
-        private System.Windows.Forms.TextBox textBoxCondition;
-        private System.Windows.Forms.GroupBox groupBoxOutputData;
-        private System.Windows.Forms.Button buttonResultCaclulation;
-        private System.Windows.Forms.TextBox textBoxResult;
-        private System.Windows.Forms.Button buttonHelp;
-        private System.Windows.Forms.Label labelResult;
+        private System.Windows.Forms.GroupBox groupBoxCondition_EKP;
+        private System.Windows.Forms.PictureBox pictureBoxCondition_EKP;
+        private System.Windows.Forms.TextBox textBoxCondition_EKP;
+        private System.Windows.Forms.GroupBox groupBoxOutputData_EKP;
+        private System.Windows.Forms.Button buttonResultCaclulation_EKP;
+        private System.Windows.Forms.TextBox textBoxResult_EKP;
+        private System.Windows.Forms.Button buttonHelp_EKP;
+        private System.Windows.Forms.Label labelResult_EKP;
     }
 }
 
