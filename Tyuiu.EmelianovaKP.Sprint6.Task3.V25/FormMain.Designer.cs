@@ -156,7 +156,7 @@ namespace Tyuiu.EmelianovaKP.Sprint6.Task3.V25
             this.textBoxTask_EKP.Size = new System.Drawing.Size(222, 178);
             this.textBoxTask_EKP.TabIndex = 0;
             this.textBoxTask_EKP.TabStop = false;
-            this.textBoxTask_EKP.Text = resources.GetString("textBoxTask_EKP.Text");
+            this.textBoxTask_EKP.Text = "Дан массив 5 на 5 элементов. Выполнить сортировку по возрастанию в третьем столбце.\r\n\r\n14      5    -9     18   21\r\n-5    -12  -12      4   28\r\n27     -2  -14    23   27\r\n-19  -15   17    15     1\r\n 33      2     6    24   24";
             // 
             // groupBoxOutputData_EKP
             // 
